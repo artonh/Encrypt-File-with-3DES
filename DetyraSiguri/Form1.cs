@@ -315,12 +315,6 @@ namespace DetyraSiguri
                 case 1: lblEmail.Text = "arti._3@hotmail.com"; 
                         txtEmri.Text = "Arton Hoti"; 
                         pbFotoja.BackgroundImage = DetyraSiguri.Properties.Resources.artoni; break;
-                case 2: txtEmri.Text = "Armend Ukehaxhaj";
-                        lblEmail.Text = "armendd.u@hotmail.com"; 
-                        pbFotoja.BackgroundImage = DetyraSiguri.Properties.Resources.armendi1;break;
-                case 3: txtEmri.Text = "Mal Kurteshi"; 
-                        lblEmail.Text = "malkurteshi@gmail.com";
-                        pbFotoja.BackgroundImage = DetyraSiguri.Properties.Resources.mali;break;
             }
             if (radha == 3) radha = 1;
             else radha++;
@@ -332,12 +326,6 @@ namespace DetyraSiguri
                 case 1: lblEmail.Text = "arti._3@hotmail.com";
                     txtEmri.Text = "Arton Hoti";
                     pbFotoja.BackgroundImage = DetyraSiguri.Properties.Resources.artoni; break;
-                case 2: txtEmri.Text = "Armend Ukehaxhaj";
-                    lblEmail.Text = "armendd.u@hotmail.com";
-                    pbFotoja.BackgroundImage = DetyraSiguri.Properties.Resources.armendi1; break;
-                case 3: txtEmri.Text = "Mal Kurteshi";
-                    lblEmail.Text = "malkurteshi@gmail.com";
-                    pbFotoja.BackgroundImage = DetyraSiguri.Properties.Resources.mali; break;
             }
             if (radha == 3) radha = 1;
             else radha++;

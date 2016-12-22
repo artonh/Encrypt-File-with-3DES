@@ -21,3 +21,14 @@ C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.Lang.lang
 D:\Fakulteti - mesime\viti III\Semestri V\Siguria e internetit\Ushtrime\Detyra1\DetyraSiguri\DetyraSiguri\bin\Debug\DetyraSiguri.exe.config
 D:\Fakulteti - mesime\viti III\Semestri V\Siguria e internetit\Ushtrime\Detyra1\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.exe
 D:\Fakulteti - mesime\viti III\Semestri V\Siguria e internetit\Ushtrime\Detyra1\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.pdb
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\bin\Debug\DetyraSiguri.exe.config
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\obj\Debug\DetyraSiguri.exe
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\obj\Debug\DetyraSiguri.pdb
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\bin\Debug\DetyraSiguri.exe
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\bin\Debug\DetyraSiguri.pdb
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\obj\Debug\DetyraSiguri.csprojResolveAssemblyReference.cache
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\obj\Debug\DetyraSiguri.Form1.resources
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\obj\Debug\DetyraSiguri.Lang.langres.resources
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\obj\Debug\DetyraSiguri.Lang.langres.al.resources
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\obj\Debug\DetyraSiguri.Properties.Resources.resources
+C:\Users\CCKS\Desktop\Encrypt-File-with-3DES\DetyraSiguri\obj\Debug\DetyraSiguri.csproj.GenerateResource.Cache
