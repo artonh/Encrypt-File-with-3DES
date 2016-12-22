@@ -1,0 +1,23 @@
+c:\users\ermira\documents\visual studio 2012\Projects\DetyraSiguri\DetyraSiguri\bin\Debug\DetyraSiguri.exe.config
+c:\users\ermira\documents\visual studio 2012\Projects\DetyraSiguri\DetyraSiguri\bin\Debug\DetyraSiguri.exe
+c:\users\ermira\documents\visual studio 2012\Projects\DetyraSiguri\DetyraSiguri\bin\Debug\DetyraSiguri.pdb
+c:\users\ermira\documents\visual studio 2012\Projects\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.Form1.resources
+c:\users\ermira\documents\visual studio 2012\Projects\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.Properties.Resources.resources
+c:\users\ermira\documents\visual studio 2012\Projects\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.csproj.GenerateResource.Cache
+c:\users\ermira\documents\visual studio 2012\Projects\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.exe
+c:\users\ermira\documents\visual studio 2012\Projects\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.pdb
+C:\Users\Ermira\Documents\Visual Studio 2012\Projects\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.csprojResolveAssemblyReference.cache
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\bin\Debug\DetyraSiguri.exe.config
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.pdb
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\bin\Debug\DetyraSiguri.exe
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\bin\Debug\DetyraSiguri.pdb
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.csprojResolveAssemblyReference.cache
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.Form1.resources
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.Properties.Resources.resources
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.csproj.GenerateResource.Cache
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.exe
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.Lang.langres.resources
+C:\Users\CCKS\Desktop\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.Lang.langres.al.resources
+D:\Fakulteti - mesime\viti III\Semestri V\Siguria e internetit\Ushtrime\Detyra1\DetyraSiguri\DetyraSiguri\bin\Debug\DetyraSiguri.exe.config
+D:\Fakulteti - mesime\viti III\Semestri V\Siguria e internetit\Ushtrime\Detyra1\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.exe
+D:\Fakulteti - mesime\viti III\Semestri V\Siguria e internetit\Ushtrime\Detyra1\DetyraSiguri\DetyraSiguri\obj\Debug\DetyraSiguri.pdb
