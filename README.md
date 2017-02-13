@@ -1,24 +1,24 @@
 # Encrypt-File-with-3DES
-Qëllimi i projektit
-Krijimi i programit që mundëson enkriptimin me 3DES të një fajlli, të cilin ne mund t’a zgjedhim. Programi të mundësoj shkruarjen e celsit enkriptues dhe gjithashtu ketë si alternativë gjenerimin automatik të celsit enkriptues. Ky program duhet të bëj leximin brenda file-it, të enkriptoj dhe të ruaj celsin enkriptues në mënyrë që faili i enkriptuar pas një kohë (Stop runnning ? Start) të mund të dekriptohet me atë celës!
+QÃ«llimi i projektit
+Krijimi i programit qÃ« mundÃ«son enkriptimin me 3DES tÃ« njÃ« fajlli, tÃ« cilin ne mund tâ€™a zgjedhim. Programi tÃ« mundÃ«soj shkruarjen e celsit enkriptues dhe gjithashtu ketÃ« si alternativÃ« gjenerimin automatik tÃ« celsit enkriptues. Ky program duhet tÃ« bÃ«j leximin brenda file-it, tÃ« enkriptoj dhe tÃ« ruaj celsin enkriptues nÃ« mÃ«nyrÃ« qÃ« faili i enkriptuar pas njÃ« kohe (Stop runnning and then Start) tÃ« mund tÃ« dekriptohet me atÃ« celÃ«s!
 
-Koncepte të përgjithshme për (3)DES-in
-Triple Data Encryption Algorithm 3DES i cili pastaj bënë Data Encryption Standard (DES) tri herë në secilin bllok me të dhëna. Algoritmi DES përdorë celsin me gjatësi 56 bitesh, tanimë nuk është shumë i sigurtë sepse me kompjuter të fuqishëm ai mund të thyhet me bruteforce dhe për t’i ikur këtij rreziku 3DES-i përdor celsin 3*56=168 bit (mund të përdorë cels edhe me 115 bit). Celsat mund të jenë:
-1. Celsat të pavarur Key1 ? Key2 ? Key3 (që e bënë të pamundur BruteForce-in).
-2. Key1 dhe Key2 janë të pavarur, ndërsa Key3 = Key1. (celës 112bitsh)
-3. Të tre celsat janë të njejtë Key1 = Key2 = Key3 (është njejtë sikur DES-i, 56bit).
+Koncepte tÃ« pÃ«rgjithshme pÃ«r (3)DES-in
+Triple Data Encryption Algorithm 3DES i cili pastaj bÃ«nÃ« Data Encryption Standard (DES) tri herÃ« nÃ« secilin bllok me tÃ« dhÃ«na. Algoritmi DES pÃ«rdorÃ« celsin me gjatÃ«si 56 bitesh, tanimÃ« nuk Ã«shtÃ« shumÃ« i sigurtÃ« sepse me kompjuter tÃ« fuqishÃ«m ai mund tÃ« thyhet me bruteforce dhe pÃ«r tâ€™i ikur kÃ«tij rreziku 3DES-i pÃ«rdor celsin 3*56=168 bit (mund tÃ« pÃ«rdorÃ« cels edhe me 115 bit). Celsat mund tÃ« jenÃ«:
+1. Celsat tÃ« pavarur Key1 ? Key2 ? Key3 (qÃ« e bÃ«nÃ« tÃ« pamundur BruteForce-in).
+2. Key1 dhe Key2 janÃ« tÃ« pavarur, ndÃ«rsa Key3 = Key1. (celÃ«s 112bitsh)
+3. TÃ« tre celsat janÃ« tÃ« njejtÃ« Key1 = Key2 = Key3 (Ã«shtÃ« njejtÃ« sikur DES-i, 56bit).
 
 Algoritmi
-Teksti i enkriptuar (ciphertext) është rezultat i përbërë nga:
-1. Enkriptimi të tekstit (plaintext) me celsin Key1
-2. Dekriptimi i tekstit me celsin Key2 i asaj që fitohet pas pikës të lartë përmendur 1.
-3. Enkriptimi i tekstit që fitohet nga pika e lartë përmendur 2.
+Teksti i enkriptuar (ciphertext) Ã«shtÃ« rezultat i pÃ«rbÃ«rÃ« nga:
+1. Enkriptimi tÃ« tekstit (plaintext) me celsin Key1
+2. Dekriptimi i tekstit me celsin Key2 i asaj qÃ« fitohet pas pikÃ«s tÃ« lartÃ« pÃ«rmendur 1.
+3. Enkriptimi i tekstit qÃ« fitohet nga pika e lartÃ« pÃ«rmendur 2.
 ciphertext = EKey3(DKey2(EKey1(plaintext)))
-Dekriptimi është i anasjelltë:
+Dekriptimi Ã«shtÃ« i anasjelltÃ«:
 plaintext = DKey1(EKey2(DKey3(ciphertext)))
-Modi enkriptues i cili është përdorur në këtë projekt është CBC, ky mod është më i sigurtë pasiqë në bllokun e parë përdor IV (vektorin inicializues) dhe hyrja e bllokut tjetër përdorë daljen e bllokut paraprak.
+Modi enkriptues i cili Ã«shtÃ« pÃ«rdorur nÃ« kÃ«tÃ« projekt Ã«shtÃ« CBC, ky mod Ã«shtÃ« mÃ« i sigurtÃ« pasiqÃ« nÃ« bllokun e parÃ« pÃ«rdor IV (vektorin inicializues) dhe hyrja e bllokut tjetÃ«r pÃ«rdorÃ« daljen e bllokut paraprak.
 
-Përdorimi i 3DES-it
-3DES-i gjenë përdorim në industrit e pagesave elektronike, në Microsoft OneNote,
-Microsoft Outlook 2007, Microsoft System Center Configuration Manager 2012 përdorë
-Triple DES për mbrojtjen password-it të user-ave dhe të dhënat e sistemit.
+PÃ«rdorimi i 3DES-it
+3DES-i gjenÃ« pÃ«rdorim nÃ« industrit e pagesave elektronike, nÃ« Microsoft OneNote,
+Microsoft Outlook 2007, Microsoft System Center Configuration Manager 2012 pÃ«rdorÃ«
+Triple DES pÃ«r mbrojtjen password-it tÃ« user-ave dhe tÃ« dhÃ«nat e sistemit.
