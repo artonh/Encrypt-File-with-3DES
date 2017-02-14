@@ -26,7 +26,11 @@ namespace DetyraSiguri
             grInfo.Location = new Point(12, 30);
 
             CultureInfo ci = new CultureInfo("al-AL");
-            NdrroGjuhen(ci, "DetyraSiguri.Lang.langres.al");      
+            NdrroGjuhen(ci, "DetyraSiguri.Lang.langres.al");     
+            
+            lblEmail.Text = "arti._3@hotmail.com"; 
+            txtEmri.Text = "Arton Hoti"; 
+            pbFotoja.BackgroundImage = DetyraSiguri.Properties.Resources.artoni;
         }
         private void Form1_Load(object sender, EventArgs e)//Ne load-im zgjedhet menyra enkriptuese me 3DES
         {
@@ -309,27 +313,9 @@ namespace DetyraSiguri
 
         int radha = 2;
         private void pbNext_Click(object sender, EventArgs e)
-        {
-            switch(radha)
-            {
-                case 1: lblEmail.Text = "arti._3@hotmail.com"; 
-                        txtEmri.Text = "Arton Hoti"; 
-                        pbFotoja.BackgroundImage = DetyraSiguri.Properties.Resources.artoni; break;
-            }
-            if (radha == 3) radha = 1;
-            else radha++;
-        }  
+        {  }  
         private void pbBack_Click(object sender, EventArgs e)
-        {
-            switch (radha)
-            {
-                case 1: lblEmail.Text = "arti._3@hotmail.com";
-                    txtEmri.Text = "Arton Hoti";
-                    pbFotoja.BackgroundImage = DetyraSiguri.Properties.Resources.artoni; break;
-            }
-            if (radha == 3) radha = 1;
-            else radha++;
-        }
+        {}
 
         private void infoToolStripMenuItem_Click(object sender, EventArgs e)
         {
